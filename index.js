@@ -3,6 +3,7 @@ import * as dotenv from "dotenv";
 import fs from "fs";
 const app = express();
 
+dotenv.config();
 const PORT = process.env.PORT;
 
 const fileName = "fs-task";
